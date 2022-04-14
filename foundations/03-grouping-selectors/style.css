@@ -1,0 +1,19 @@
+/* 
+use ID tags for specific things, use class tags for more general things.
+specificity of tags: ID > Class > Type
+*/
+
+#click-me{
+        background-color: black;
+        color: white;
+}
+
+#no-me {
+        background-color: yellow;
+        color: black;
+}
+
+.button {
+        font-size: 28px;
+        font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
